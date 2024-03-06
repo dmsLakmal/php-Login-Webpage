@@ -1,5 +1,6 @@
 <?php
 
+    //function for login
     function check_login($con)
     {
         if(isset($_SESSION['user_id']))
@@ -20,6 +21,7 @@
         die;
     } 
 
+    //function for generate random user id
     function random_num($length){
 
         $text = "";

@@ -34,6 +34,7 @@ session_start();
     </head>
 <body>
 
+     <!-- style for pages -->
     <style type ="text/css">
         #text{
             height: 25px;
@@ -59,6 +60,7 @@ session_start();
         }
     </style>
 
+    <!-- signup form -->
     <div id="box">
 
         <form method="post">

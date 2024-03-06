@@ -46,6 +46,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     </head>
 <body>
 
+    <!-- style for pages -->
     <style type ="text/css">
         #text{
             height: 25px;
@@ -71,6 +72,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         }
     </style>
 
+    <!-- login form -->
     <div id="box">
 
         <form method="post">
